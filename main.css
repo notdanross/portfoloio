@@ -1,3 +1,38 @@
-nav ul li{
-    display: inline;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#737373;
+    position: fixed;
+    top: 0;
+    width: 100vw;
 }
+
+nav ul li a { 
+    display: inline-block;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.active {
+    background-color: #C8D4C8;
+    color: #486549;
+
+  }
+
+  body {
+background-color: #fff8e7;
+}
+
+
+/** this is how to outline text in blac
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  1px 1px 0 #000;
+  **/
