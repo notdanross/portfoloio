@@ -3,7 +3,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color:#737373;
+    background-color;
     position: fixed;
     top: 0;
     width: 100%;
@@ -16,6 +16,11 @@ nav ul li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-shadow: 
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 .active {
@@ -24,15 +29,13 @@ nav ul li a {
 
   }
 
-  body {
-background-color: #fff8e7;
+
+.LandingPage {
+    background: url(CoffeeHeart.jpg) no-repeat center fixed;
+    background-size: cover;
 }
 
-
 /** this is how to outline text in blac
-  text-shadow:
-  -1px -1px 0 #000,
-  1px -1px 0 #000,
-  -1px 1px 0 #000,
-  1px 1px 0 #000;
+  
+  
   **/
