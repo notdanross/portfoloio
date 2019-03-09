@@ -3,7 +3,7 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color;
+    opacity: 50%;
     position: fixed;
     top: 0;
     width: 100%;
@@ -35,7 +35,14 @@ nav ul li a {
     background-size: cover;
 }
 
-/** this is how to outline text in blac
-  
-  
-  **/
+.button1 {
+  border-radius: 12px;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
