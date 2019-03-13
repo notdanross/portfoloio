@@ -31,7 +31,7 @@ nav ul li a {
 
 
 .LandingPage {
-    background: url(CoffeeHeart.jpg) no-repeat center fixed;
+    background: url(./images/CoffeeHeart.jpg) no-repeat center fixed;
     background-size: cover;
 }
 
