@@ -9,7 +9,7 @@ nav ul {
     width: 100%;
 }
 
-nav ul li a { 
+/* nav ul li a { 
     display: inline-block;
     float: right;
     color: white;
@@ -20,20 +20,19 @@ nav ul li a {
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
-    1px 1px 0 #000;
-}
+    1px 1px 0 #000; 
+  } */
 
 .active {
     background-color: #C8D4C8;
     color: #486549;
-
   }
 
 
-.LandingPage {
+/* .LandingPage {
     background: url(./images/CoffeeHeart.jpg) no-repeat center fixed;
     background-size: cover;
-}
+} */
 
 .button1 {
   border-radius: 12px;
@@ -45,4 +44,42 @@ nav ul li a {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+/* Projects Grid */
+
+.MyProjects {
+  display: grid;
+  grid-template-rows: 25vw, 25vw;
+  grid-template-columns: 25vw, 25vw, 25vw;
+}
+
+.projectone {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.projecttwo {
+  grid-column: 2;
+  grid-row: 1; 
+}
+
+.projectthree {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.projectfour {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.projectfive {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.projectsix {
+  grid-column: 3;
+  grid-row: 2;
 }
