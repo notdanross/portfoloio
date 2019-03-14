@@ -53,7 +53,7 @@ nav ul li a {
 .MyProjects {
   display: grid;
   grid-template-rows: 40vh, 40vh;
-  grid-template-columns: 25vw, 25vw, 25vw;
+  grid-template-columns: 20vw, 20vw, 20vw;
   grid-gap: 10px;
   background-color: rgb(255, 248, 231, 0.5);
 }
