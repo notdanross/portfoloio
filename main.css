@@ -54,8 +54,9 @@ nav ul li a {
 
 .MyProjects {
   display: grid;
+  /* grid-template-columns: 25vw, 25vw, 25vw; */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-template-rows: 40vh, 40vh;
-  grid-template-columns: 25vw, 25vw, 25vw;
   grid-gap: 10px;
   margin-left: 100px;
   margin-right: 100px;
@@ -65,10 +66,10 @@ nav ul li a {
   display: grid;
 } */
 
-.projectone {
+/* .projectone {
   grid-column: 1;
   grid-row: 1;
-}
+} */
 
 .projectone, .projecttwo, .projectthree, .projectfour, .projectfive, .projectsix {
   display: grid;
@@ -77,44 +78,16 @@ nav ul li a {
   background-color: rgb(255, 248, 231, 0.5)
 }
 
-.projectone--heading , .projecttwo--heading, .projectthree--heading, 
-.projectfour--heading, .projectfive--heading, .projectsix--heading {
-  grid-column: 1/3;
-  grid-row: 1;
+.projectone__heading , .projecttwo__heading, .projectthree__heading, 
+.projectfour__heading, .projectfive__heading, .projectsix__heading {
   background-color: rgb(255, 248, 231, 0.75)
 }
 
-.projectone--photo {
+.projectone__photo {
   grid-column-start: 1;
   grid-column-end: 2;
   grid-row: 2;
 }
-  
-.projecttwo {
-  grid-column: 2;
-  grid-row: 1; 
-}
-
-.projectthree {
-  grid-column: 3;
-  grid-row: 1;
-}
-
-.projectfour {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-.projectfive {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.projectsix {
-  grid-column: 3;
-  grid-row: 2;
-}
-
 
 .sitefooter {
   margin-top: 10px;
