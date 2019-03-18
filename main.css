@@ -33,8 +33,9 @@ nav ul li a {
 
 
 .LandingPage {
-    background: url(./images/CoffeeHeart.jpg) no-repeat center fixed;
+    background-image: url(./images/woodflooring.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 } 
 
 
