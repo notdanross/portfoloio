@@ -42,6 +42,7 @@ nav ul li a {
 .aboutme {
   margin-top: 100px;
   background-color: rgb(255, 248, 231, 0.5);
+  max-width: 600px;
 }
 
 /* Projects Grid */
